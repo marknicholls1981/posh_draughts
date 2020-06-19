@@ -1,0 +1,10 @@
+* {
+    background-color: bisque;
+    color: brown;
+/*    background-image: url(./chess.jpeg);*/
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
