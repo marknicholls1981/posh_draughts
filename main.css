@@ -1,10 +1,98 @@
-* {
-    background-color: bisque;
-    color: brown;
-/*    background-image: url(./chess.jpeg);*/
-    background-repeat: no-repeat;
+header {
+  background-color: grey;
+
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  color: yellow;
+  font-size: 15px;
+
+  font-family: "Krona One", sans-serif;
+}
+.posh {
+  font-size: 30px;
 }
 
-h1 {
-    text-align: center;
+.about {
+  padding: 30px 30px;
+  height: 100%;
+  background-size: cover;
+
+  font-family: "Krona One", sans-serif;
+  color: black;
+}
+a {
+  color: yellow !important;
+}
+a:hover {
+  color: orange !important;
+}
+table,
+th,
+tr {
+  background: white !important;
+}
+.league {
+  padding-top: 50px;
+  background-color: lightblue;
+}
+
+td,
+th {
+  text-align: left !important;
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+}
+tr:nth-child(odd) {
+  background: grey !important;
+}
+table,
+tr {
+  border: solid 1px grey;
+}
+.fixtures {
+  text-align: center;
+}
+.league-table {
+  text-align: center;
+}
+
+#karben,
+#dave {
+  color: brown !important;
+}
+#karben:active {
+  color: brown;
+}
+
+bg {
+  background-image: url("./chess.gif");
+  height: 100%;
+}
+.fixture-list {
+  list-style-type: none;
+  font-size: 1.4em;
+}
+body {
+  background-color: lightblue;
+}
+li a {
+  color: brown !important;
+}
+.navbar-nav li a {
+  color: yellow !important;
+}
+.navbar-nav li a:hover {
+  color: orange !important;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  color: orange !important;
+  text-decoration: none !important;
+}
+
+.vlog {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
