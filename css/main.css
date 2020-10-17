@@ -65,9 +65,15 @@ tr {
   color: brown;
 }
 
-bg {
+/* Intro --------------------------------------------- */
+
+.intro {
+  background-color: #333;
   background-image: url("../imgs/chess.gif");
-  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
 }
 .fixture-list {
   list-style-type: none;
@@ -90,6 +96,14 @@ li a {
 li a:hover {
   color: orange !important;
   text-decoration: none !important;
+}
+
+/* Page specific ----------------------------------- */
+
+blockquote {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 2em 0 2em 0; /* four values = top, right, bottom, left (clockwise) */
 }
 
 .vlog {
