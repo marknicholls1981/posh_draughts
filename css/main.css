@@ -96,3 +96,12 @@ li a:hover {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/* footer ------------------------------------------ */
+
+.page-footer {
+  border-top: 1px solid #999;
+  font-size: 90%;
+  padding: 1em;
+  text-align: right;
+}
