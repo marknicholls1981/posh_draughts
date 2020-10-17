@@ -1,7 +1,46 @@
 /* general ------------------------------------ */
 
+body {
+  background-color: lightblue;
+}
+
+li a {
+  color: brown !important;
+}
+
+h1 {
+  font-size: 200%;
+  margin-bottom: 1em;
+}
+h2 {
+  background-color: #87c9e0;
+  font-size: 160%;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+h3 {
+  font-size: 120%;
+}
+
+a {
+  color: yellow !important;
+}
+a:hover {
+  color: orange !important;
+}
+table, th, tr {
+  background: white !important;
+}
+
 main {
   min-height: 30em; /* avoid really short pages when there is no content (gallery) */
+  padding: 2em 1.5em;
+}
+
+blockquote {
+  font-size: 160%;
+  font-weight: bold;
+  padding: 2em 0 2em 0; /* four values = top, right, bottom, left (clockwise) */
 }
 
 /* header ------------------------------------- */
@@ -21,32 +60,7 @@ header {
   font-size: 30px;
 }
 
-.about {
-  padding: 30px 30px;
-  height: 100%;
-  background-size: cover;
-
-  font-family: "Krona One", sans-serif;
-  color: black;
-}
-a {
-  color: yellow !important;
-}
-a:hover {
-  color: orange !important;
-}
-table,
-th,
-tr {
-  background: white !important;
-}
-.league {
-  padding-top: 50px;
-  background-color: lightblue;
-}
-
-td,
-th {
+td, th {
   text-align: left !important;
   padding-left: 55px !important;
   padding-right: 55px !important;
@@ -54,19 +68,11 @@ th {
 tr:nth-child(odd) {
   background: grey !important;
 }
-table,
-tr {
+table, tr {
   border: solid 1px grey;
 }
-.fixtures {
-  text-align: center;
-}
-.league-table {
-  text-align: center;
-}
 
-#karben,
-#dave {
+#karben, #dave {
   color: brown !important;
 }
 #karben:active {
@@ -83,21 +89,19 @@ tr {
   height: 600px;
   width: 100%;
 }
-.fixture-list {
-  list-style-type: none;
-  font-size: 1.4em;
+
+.navbar-brand {
+  font-size: 160%;
 }
-.fixture-list li {
-  margin: 1em 0;
-}
-body {
-  background-color: lightblue;
-}
-li a {
-  color: brown !important;
-}
+
 .navbar-nav li a {
+  background-color: #666;
   color: yellow !important;
+  display: block;
+  margin-bottom: 0.2em;
+  margin-right: 0.2em;
+  padding: 1em 3em;
+  text-align: center;
 }
 .navbar-nav li a:hover {
   color: orange !important;
@@ -115,10 +119,26 @@ li.selected a, li.selected a:hover {
 
 /* Page specific ----------------------------------- */
 
-blockquote {
-  font-size: 120%;
-  font-weight: bold;
-  padding: 2em 0 2em 0; /* four values = top, right, bottom, left (clockwise) */
+.about p {
+  font-family: "Krona One", sans-serif;
+}
+
+.league-table th, .league-table td {
+  text-align: center !important;
+}
+
+.fixtures {
+  text-align: center;
+}
+
+.fixture-list {
+  list-style-type: none;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+.fixture-list li {
+  margin: 1em 0;
 }
 
 .vlog {
@@ -129,7 +149,8 @@ blockquote {
 /* footer ------------------------------------------ */
 
 .page-footer {
-  border-top: 1px solid #999;
+  border-top: 1px solid #87c9e0;
+  color: #6799ab;
   font-size: 90%;
   padding: 1em;
   text-align: right;
