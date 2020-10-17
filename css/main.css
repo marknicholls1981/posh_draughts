@@ -1,3 +1,11 @@
+/* general ------------------------------------ */
+
+main {
+  min-height: 30em; /* avoid really short pages when there is no content (gallery) */
+}
+
+/* header ------------------------------------- */
+
 header {
   background-color: grey;
 
@@ -99,6 +107,10 @@ li a {
 li a:hover {
   color: orange !important;
   text-decoration: none !important;
+}
+
+li.selected a, li.selected a:hover {
+  color: white !important;
 }
 
 /* Page specific ----------------------------------- */
